@@ -17,12 +17,12 @@ istream& operator>>(istream& in, Student& s)
 	return in;
 }
 
-//int main()
-//{
-//	Student s1;
-//	cout << "Enter Name and age:\n";
-//	cin >> s1;
-//	cout << "\nThe Values are\n";
-//	cout << s1;
-//	return 0;
-//}
+int main()
+{
+	Student s1;
+	cout << "Enter Name and age:\n";
+	cin >> s1;
+	cout << "\nThe Values are\n";
+	cout << s1;
+	return 0;
+}
